@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.home {
+    height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    perspective: 340px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 300px;
+    margin: auto;
+    bottom: 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.titles {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 350px;
+    margin: auto;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50px;
+    animation: downs 2s linear infinite;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    top: 30px;
+    margin: auto;
+}
+
+.Bold_Italic {
+    font-weight: 700;
+    font-style: italic;
+}
